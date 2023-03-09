@@ -1,0 +1,136 @@
+html,
+body {
+  font-family: "Avenir";
+  background-color: #eff1f3;
+}
+
+.left {
+  width: 50%;
+  height: 100vh;
+  padding: 48px 38px;
+  background: #3f3f51;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-container {
+  margin-top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qr-container .qr-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.qr-container .qr-image {
+  width: 405px;
+  height: 404px;
+}
+
+.right {
+  padding: 48px 24px;
+  background: #fff;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.info-container {
+  margin-bottom: 48px;
+}
+
+.info-container .info-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #333333;
+}
+
+.info-container .form-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+
+.info-container .form-control {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  color: #3458e0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.info-container .form-control:focus {
+  box-shadow: none;
+}
+
+.info-container .form-control::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #999999;
+}
+
+.transaction-box .title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.transaction-box .box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  height: 56px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.transaction-box .box .amount {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3458e0;
+  border-right: 1px solid #d9d9d9;
+  flex: 1 auto;
+  margin-right: 8px;
+}
+
+.transaction-box .box .divdier {
+  width: 1px;
+  height: 100%;
+  background-color: #d9d9d9;
+}
+
+.transaction-box .box .currency {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #666666;
+  border: 0;
+}
+
+.transaction-box .box .currency::after {
+  position: absolute;
+  right: 5px;
+  background-color: #e5e5e5;
+  border-radius: 25px;
+  color: rgba(51, 51, 51, 0.5);
+}

@@ -1,0 +1,72 @@
+.drop-down {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+  font-family: verdana;
+}
+.drop-down select {
+  display: none;
+}
+.drop-down .button {
+  display: flex;
+  align-items: center;
+}
+.drop-down .button span,
+.drop-down .button a {
+  margin-left: 8px;
+}
+.drop-down .select-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 40px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.drop-down .select-list li {
+  display: none;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.drop-down .select-list li img {
+  margin-right: 8px;
+}
+.drop-down .select-list li:hover {
+  background: #e5e5e5;
+}
+.reverse {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.make-transaction {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.make-transaction .btn-custom {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: #3458e0;
+  box-shadow: 0px 5px 10px rgba(30, 61, 116, 0.25);
+  border-radius: 100px;
+  width: 327px;
+  height: 48px;
+}
+.make-transaction .btn-custom:hover {
+  background: #fff;
+  color: #3458e9;
+}

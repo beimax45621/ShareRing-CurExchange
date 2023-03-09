@@ -1,0 +1,14 @@
+.custom-toast {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px;
+  background: #48c4a1;
+}
+.custom-toast span {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
